@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/11/Drawing-trees-in-autumn-images-1920x1200.jpg");
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  font-size:20px;
+}
+span{
+  font-size:20px;
+}
+#Score{
+  margin-right:1000px;
+}
+#Time_Left{
+  margin-left:100px;
+}
+#show_sketch{
+  float:right;
+}
+h1{
+  margin-left:60px;
+}
+#myModal{
+  color:black;
+}
+canvas 
+  {
+    
+    border-radius:20px;
+    margin-top:150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
